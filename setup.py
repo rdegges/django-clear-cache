@@ -1,6 +1,6 @@
 from os.path import abspath, dirname, join, normpath
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 setup(
@@ -8,7 +8,7 @@ setup(
     # Basic package information:
     name = 'django-clear-cache',
     version = '0.1',
-    packages = find_packages(),
+    packages = ('clear_cache',),
 
     # Packaging options:
     zip_safe = False,
