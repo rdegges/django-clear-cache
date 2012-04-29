@@ -1,2 +1,4 @@
-include README.md clear_cache.jpg UNLICENSE
+include README.md clear_cache.jpg manage.py UNLICENSE
 recursive-exclude clear_cache *.pyc
+recursive-exclude test_project *.pyc
+recursive-include test_project
