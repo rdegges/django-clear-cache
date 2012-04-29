@@ -1,0 +1,2 @@
+include README.md clear_cache.jpg UNLICENSE
+recursive-exclude clear_cache *.pyc
