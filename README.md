@@ -60,6 +60,6 @@ memcached, local memory, etc.). If you have no idea what I'm talking about,
 read through the [official Django caching docs](https://docs.djangoproject.com/en/dev/topics/cache/?from=olddocs).
 
 
-## TODO
+## Build Status
 
-- Write unit tests.
+[![Build Status](https://secure.travis-ci.org/rdegges/django-clear-cache.png?branch=master)](http://travis-ci.org/rdegges/django-clear-cache)
