@@ -60,6 +60,24 @@ memcached, local memory, etc.). If you have no idea what I'm talking about,
 read through the [official Django caching docs](https://docs.djangoproject.com/en/dev/topics/cache/?from=olddocs).
 
 
-## Build Status
+## Tests
 
 [![Build Status](https://secure.travis-ci.org/rdegges/django-clear-cache.png?branch=master)](http://travis-ci.org/rdegges/django-clear-cache)
+
+Want to run the tests? No problem:
+
+``` bash
+$ git clone git://github.com/rdegges/django-clear-cache.git
+$ cd django-clear-cache
+$ python setup.py develop
+...
+$ python manage.py test clear_cache
+Creating test database for alias 'default'...
+.Your cache has been cleared!
+..
+----------------------------------------------------------------------
+Ran 3 tests in 1.007s
+
+OK
+Destroying test database for alias 'default'...
+```
