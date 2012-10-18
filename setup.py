@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'django-clear-cache',
-    version = '0.2',
+    version = '0.3',
     packages = (
         'clear_cache',
         'clear_cache.management',
